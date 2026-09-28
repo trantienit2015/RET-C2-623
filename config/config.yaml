@@ -1,0 +1,7 @@
+# Runtime parameters — loaded separately from config/agent.yaml (the static
+# discovery manifest) and passed to the graph as Graph(config=...).
+max_retry: 3
+timeout_seconds: 30
+top_k_policy: 8
+top_k_statute: 6
+score_threshold: 0.75
